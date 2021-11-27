@@ -1,0 +1,35 @@
+.searching {
+  position: absolute;
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  overflow: scroll;
+  .cont {
+    padding-top: 100px;
+    .ts {
+      color: white;
+      font-size: 25px;
+      margin-left: 50px;
+      margin-bottom: 20px;
+    }
+    .list {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      margin-top: 10px;
+      margin-left: 50px;
+
+      align-items: center;
+      justify-content: left;
+
+      //for sliding left right
+      transform: translateX(0px);
+      transition: all 1s ease;
+    }
+    .er {
+      color: white;
+      font-size: 20px;
+      align-items: center;
+    }
+  }
+}
